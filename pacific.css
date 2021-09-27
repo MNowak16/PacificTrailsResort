@@ -25,7 +25,8 @@ nav ul { list-style: none;
     font-size: 1.2em; }
 nav li { border-bottom: 1px solid #00005D; }
 nav a { text-decoration: none; }
-nav a:link { color: #5C7FA3; }
+nav a:link { color: #5C7FA3;
+    transition: color 3s ease-out; }
 nav a:visited { color: #344873; }
 nav a:hover { color: #A52A2A; }
 h1 { color: #FFFFFF;
@@ -78,6 +79,7 @@ text { text-align: left; }
 form { display: flex;
     flex-flow: column nowrap; }
 input, textarea { margin-bottom: 0.5em; }
+video, embed { float: right; padding-left: 20px; }
 
 @media (min-width: 600px) {
     nav ul { display: flex;
